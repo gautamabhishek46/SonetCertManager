@@ -1,1 +1,1 @@
-# SonetCertManager
+# SonetCertManagerexport ARGO_SERVER=$(kubectl get svc -n argocd -l app.kubernetes.io/name=argocd-server -o name) 
